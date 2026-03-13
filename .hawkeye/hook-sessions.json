@@ -1,0 +1,13 @@
+{
+  "aa66b401-f091-4580-8cde-b7a9b7da0636": {
+    "hawkeyeSessionId": "aa26395f-c38c-4f52-a452-4949d4677427",
+    "claudeSessionId": "aa66b401-f091-4580-8cde-b7a9b7da0636",
+    "objective": "Claude Code Session",
+    "startedAt": "2026-03-13T18:06:32.039Z",
+    "lastActivityAt": "2026-03-13T18:06:50.016Z",
+    "eventCount": 3,
+    "totalCostUsd": 0.007146,
+    "driftScores": [],
+    "model": "claude-sonnet-4-6"
+  }
+}

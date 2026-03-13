@@ -9,6 +9,10 @@ class Hawkeye < Formula
 
   def install
     system "npm", "install", *std_npm_args
+    # Rebuild native modules (better-sqlite3) for the installed Node version
+    cd libexec/"lib/node_modules/hawkeye-ai" do
+      system "npm", "rebuild", "better-sqlite3"
+    end
     bin.install_symlink libexec.glob("bin/*")
   end
 
