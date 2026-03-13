@@ -6,13 +6,13 @@ The flight recorder for AI agents - observability and security for Claude Code, 
 
 ```bash
 brew tap MLaminekane/hawkeye
-brew install hawkeye
+brew install hawkeye-ai
 ```
 
 ## Upgrade
 
 ```bash
-brew upgrade hawkeye
+brew upgrade hawkeye-ai
 ```
 
 ## More info
